@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    width: 100%;
+    margin: auto;
     color: #222;
 }
 
@@ -20,15 +22,32 @@ ul li {
       font-size: 16px;
     padding: 8px;
 }
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 42px;
+    margin: auto;
+
+}
+
 .container {
     display: flex;
     flex-direction: column;
     gap: 16px; 
     align-items: center;
     padding: 16px; 
+    border-radius: 10px;
     box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.5), 
                 -4px -4px 8px rgba(255, 255, 255, 0.5), 
                 4px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#header { 
+    border-radius: 0 0 10px 10px;
+}
+#footer { 
+    border-radius: 10px 10px 0 0;
 }
  
 #hobbies {
