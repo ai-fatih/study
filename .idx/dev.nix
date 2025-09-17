@@ -30,7 +30,7 @@
             "http.server"
             "$PORT"
             "-d"
-            "seminars/seminar1"
+            "seminars/seminar2"
           ];
           manager = "web";
         };
