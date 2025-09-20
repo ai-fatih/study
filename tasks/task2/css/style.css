@@ -1,0 +1,29 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#message {
+    margin-top: 10px;
+    color: #777;
+}
